@@ -4,18 +4,22 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>index</title>
-</head>
-<body>
-    <?php 
-        //header
-        include('/include/header.php');
-        //body
-        include('/include/indexBody.php');
-        //footer
-        include('/include/footer.php');
-    ?>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>index</title>
+    </head>
+    <body>
+        <?php 
+            //header
+            include('/include/header.php');
+        ?>
+        <main id ="container">
+
+        </main>
+        <?php
+            //footer
+            include('/include/footer.php');
+        ?>
+    </body>
+    <script src="index.js"></script>
 </html>
